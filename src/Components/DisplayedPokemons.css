@@ -1,0 +1,35 @@
+.poke-card {
+	/* background-color: rgba(19, 33, 95, 0.815); */
+	background-image: linear-gradient(rgba(0, 0, 255, 0.384), black);
+	width: 14%;
+	/* border: 4px rgb(165, 165, 165) solid; */
+	padding: 0 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, blue, rgba(0, 0, 0, 0)) 1 100%;
+}
+.poke-img {
+	/* background-color: #fff; */
+	width: 100%;
+}
+
+.poke-img img {
+	width: 100%;
+}
+h2 {
+	margin: -1px 0;
+}
+.poke-type {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 1rem;
+}
+button {
+	margin: 1rem 0;
+	font-size: 1rem;
+	margin-left: 0.2rem;
+}

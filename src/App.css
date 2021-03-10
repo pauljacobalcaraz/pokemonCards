@@ -1,0 +1,158 @@
+/* .App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	/* background-image: linear-gradient(black, blue); */
+}
+nav button {
+	border-radius: 5px;
+}
+body {
+	background-image: linear-gradient(black, rgb(0, 0, 145));
+	background-repeat: no-repeat;
+	color: white;
+	min-height: 100vh;
+}
+#landing-img {
+	position: relative;
+}
+#landing-img div {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.733),
+		rgba(0, 0, 145, 0.671)
+	);
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+#landing-img div button {
+	height: 200px;
+	width: 40%;
+	margin-top: 15%;
+	font-size: 4rem;
+	background-color: rgba(255, 255, 0, 0);
+	border: 4px solid white;
+	color: blue;
+}
+#landing-img div button:hover {
+	color: white;
+	/* border-style: solid white; */
+	border: 4px solid blue;
+}
+#landing-img img {
+	width: 100vw;
+}
+.poke-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* background: rgb(0, 0, 0); */
+	justify-content: space-around;
+}
+.Normal {
+	background: #a8a878;
+	border: 1px solid #6d6d4e;
+}
+.Fire {
+	background: #f08030;
+	border: 2px solid #f5ac78;
+}
+.Fighting {
+	background: #c03028;
+	border: 1px solid #7d1f1a;
+}
+.Water {
+	background: #6890f0;
+	border: 1px solid #445e9c;
+}
+.Electric {
+	background: #f8d030;
+	border: 1px solid #a1871f;
+}
+.Grass {
+	background: #78c850;
+	border: 1px solid #4E823;
+}
+.Ice {
+	background: #98d8d8;
+	border: 1px solid #638d8d;
+}
+.Fighting {
+	background: #705848;
+	border: 1px solid #49392f;
+}
+.Poison {
+	background: #a040a0;
+	border: 1px solid #682a68;
+}
+.Ground {
+	background: #e0c068;
+	border: 1px solid #927d44;
+}
+.Flying {
+	background: #a890f0;
+	border: 1px solid #6d5e9c;
+}
+.Psychic {
+	background: #f85888;
+	border: 1px solid #a13959;
+}
+.Bug {
+	background: #a8b820;
+	border: 1px solid #6d7815;
+}
+.Rock {
+	background: #b8a038;
+	border: 1px solid #786824;
+}
+.Ghost {
+	background: #705898;
+	border: 1px solid #493963;
+}
+.Dragon {
+	background: #7038f8;
+	border: 1px solid #4924a1;
+}

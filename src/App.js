@@ -48,7 +48,7 @@ class App extends React.Component {
 								<button>View Pokemons</button>
 							</Link>
 						</div>
-						<img src='https://th.bing.com/th/id/R25d1d99368b2180b588d578e5ce519ee?rik=g54yg9TNSMHYIA&riu=http%3a%2f%2fcdn.epicstream.com%2fassets%2fuploads%2fquizquestioncover%2ffirstgen.jpg&ehk=gRd7snIigXo3%2b8IjLT6rkUk%2bm8uMfmdil5FVId90F1o%3d&risl=&pid=ImgRaw' />
+						<img src='https://th.bing.com/th/id/R25d1d99368b2180b588d578e5ce519ee?rik=g54yg9TNSMHYIA&riu=http%3a%2f%2fcdn.epicstream.com%2fassets%2fuploads%2fquizquestioncover%2ffirstgen.jpg&ehk=gRd7snIigXo3%2b8IjLT6rkUk%2bm8uMfmdil5FVId90F1o%3d&risl=&pid=ImgRaw' alt="bg-image"/>
 					</div>
 				</Route>
 				<Route exact path='/types/'>
